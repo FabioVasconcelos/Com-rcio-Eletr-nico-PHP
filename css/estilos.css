@@ -1,0 +1,236 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	margin:0;
+	padding:0;	
+}
+
+img {
+	border: none;
+}
+
+hr {
+	display: none;
+}
+
+body {
+	background: #9FC5E9;
+}
+
+#geral {
+	width:955px;
+	margin:20px auto;
+	background:#CCC;	
+	border-top:7px solid #ACC792;
+}
+
+/***
+	TOPO
+***/
+
+#topo h1 {
+}
+
+#topo #menu {
+	border-top:1px solid #B7B7B7;
+	border-bottom:1px solid #FFF;
+	overflow:hidden;
+}
+
+#topo #menu ul {
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #B7B7B7;
+	overflow:hidden;
+}
+
+#topo #menu li {
+	display:inline;
+	list-style:none;
+}
+
+#topo #menu li a {
+	font:13px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	text-decoration: none;
+	color:#1361A1;
+	float:left;
+	padding:10px;
+}
+
+#topo #menu li a:hover {
+	background: #1361A1;
+	color:#FFF;
+}
+
+/***
+	BARRA LATERAL
+***/
+
+#barralateral {
+	width: 200px;
+	float:left;
+	background:#ACACAC;
+	padding:10px;
+}
+
+#barralateral h5 {
+	font: bold 18px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#0A3941;
+	text-transform: uppercase;	
+	margin: 15px 0 0;
+}
+
+#barralateral fieldset {
+	border:none;
+}
+
+#barralateral label {
+	 font:12px verdana;
+}
+
+#barralateral input {
+	border:none;
+	width:155px;
+	padding:7px;
+}
+
+#barralateral ul li {
+	list-style: none;
+}
+
+#barralateral ul li a {
+	font: 12px verdana, arial, tahoma;
+	color:black;
+	text-decoration: none;
+}
+
+#barralateral ul li a:hover {
+	font: 12px verdana, arial, tahoma;
+	color:#0A3941;
+	text-decoration: none;
+}
+
+/***
+	CONTEUDO
+***/
+
+#conteudo {
+	width:650px;
+	float:right;
+	padding:20px;
+}
+
+#conteudo h3 {
+	font: bold 20px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#727272;
+	text-transform: uppercase;	
+}
+
+#conteudo h4 {
+	font: bold 15px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#0A3941;
+	text-transform: uppercase;	
+}
+
+#conteudo p {
+	font: 14px/25px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#727272;
+	margin-bottom: 20px;
+}
+
+#conteudo ul {
+	margin-bottom: 20px;
+}
+	
+#conteudo ul li {
+	list-style: square;
+	margin-left: 40px;
+	font: 14px/20px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#727272;
+	margin-bottom: 10px;
+}
+
+#conteudo table {
+	font: 14px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	border-spacing: 2px;
+}
+
+#conteudo table tr th {
+	background-color: #EEE;
+	padding: 4px;
+}
+
+#conteudo table tr td {
+	text-align:center;
+	background-color: #FFF;
+	padding: 4px;
+}
+
+#conteudo a {
+	font: bold 16px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:black;
+	text-decoration: none;
+}
+
+#conteudo a:hover {
+	font: bold 16px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#0A3941;
+	text-decoration: none;
+}
+
+#conteudo #conteudo-form h5 {
+	font: bold 18px Trebuchet Ms, Verdana, Arial, Tahoma, Sans-serif;
+	color:#0A3941;
+	text-transform: uppercase;	
+	margin: 15px 0 0;
+}
+
+#conteudo #conteudo-form fieldset {
+	border:none;
+}
+
+#conteudo #conteudo-form label {
+	 font:12px verdana;
+}
+
+#conteudo #conteudo-form input {
+	border:none;
+	width:155px;
+	padding:7px;
+}
+
+#conteudo #conteudo-form input {
+	border:none;
+	width:155px;
+	padding:7px;
+}
+
+/***
+	RODAPE
+***/
+
+#rodape {
+	background:#9FC5E9;
+	clear:both;
+	border-top:5px solid #727272;
+}
+
+#rodape a.logo-rodape {
+	float:left;
+	margin:15px;
+}
+
+#rodape address {
+	float:right;
+	text-align:right;
+	padding: 15px;
+	font: 13px verdana, arial, tahoma;
+	color:#707977;
+}
+
+#rodape address strong {
+	font: bold 18px verdana, arial, tahoma;
+	display:block;	
+}
+

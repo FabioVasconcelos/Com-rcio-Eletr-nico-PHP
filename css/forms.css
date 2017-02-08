@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+ <link rel="stylesheet" href="css/forms.css" type="text/css">
+</head>
+<div class="container">
+
+	<form action="inclusaoUsuario.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+     <legend>Dados pessoais</legend>
+
+
+		<table>
+		
+
+		  <tr>
+			
+			<td width="24%">
+				Email:
+			
+			</td>
+            <td width="76%">
+            <input type="text" name="emaill" id="emaill" size="30"/>
+            </td>
+			</tr>
+			
+		<tr>
+			<td>
+				Nome:
+			
+		  </td>
+            <td><input type="text" name="nomee" id="nomee" size="30"/>
+            </td>
+		 </tr>
+		<tr>	
+			<td>
+			   Data de nacimento:
+			
+  </td>
+                    <td><input type="text" name="data" id="data" size="30"/>
+            </td>
+         </tr>
+		 <tr>	
+			<td>
+			   Cidade:
+			
+		   </td>
+            
+            <td><input type="text" name="cida" id="cida" size="30"/>
+            </td>
+         </tr>
+		 <tr>	
+			<td>
+			   Estado:
+			
+		   </td>
+            
+            <td><input type="text" name="etd" id="etd" size="5"/>
+            
+            </td>
+
+         </tr>
+		 	 <tr>	
+			<td>
+			   Senha:
+			
+			</td>
+            
+            <td><input type="text" name="pass" id="pass" size="30"/>
+            
+            </td>
+
+         </tr>
+       		<tr>
+				<td>
+						Foto do usuario:<input type="file" name="arq" />
+				</td>
+                
+            <td>
+            
+            </td>
+			 </tr>
+ 		  
+          
+          
+		  <tr>
+			<td colspan="2">
+				<input type="submit" value="Cadastrar" />
+			</td>
+		   </tr>
+		</table>
+        </fieldset>
+	</form>
+   
+    </div>
+
+
+<body>
+</body>
+</html>
